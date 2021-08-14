@@ -1,0 +1,24 @@
+package com.mycompany.arbolactivaciones;
+
+import java_cup.runtime.*;
+
+class Parser;
+
+parser code{:
+
+	
+:}
+
+//terminales
+
+terminal PR_PROGRAMA, PR_PROCEDIMIENTO, PR_END, PR_INTEGER, ID, ENTERO, COMA, DOS_PUNTOS, PUNTO_Y_COMA, ASIGNACION, PAR_A, PAR_C;
+
+
+
+//no terminales
+
+non terminal inicial;
+
+inicial ::= a;
+
+a ::= PR_PROGRAMA ;
